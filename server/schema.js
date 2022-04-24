@@ -33,6 +33,10 @@ const schema = buildSchema(`
         getUser(id: ID): User 
     }
 
+    type Mutation {
+        createUser(input: UserInput): User
+    }
+
 `);
 
 export default schema;
