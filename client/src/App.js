@@ -1,7 +1,19 @@
+import React from "react";
 import "./App.css";
 
-function App() {
-    return <div>Hello</div>;
-}
+const App = () => {
+    return (
+        <div>
+            <form>
+                <input type="text" />
+                <input type="number" />
+                <div className="btns">
+                    <button>Create</button>
+                    <button>Get</button>
+                </div>
+            </form>
+        </div>
+    );
+};
 
 export default App;
